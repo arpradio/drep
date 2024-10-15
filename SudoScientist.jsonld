@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "SudoScientist"
+    },
+    "motivations": {
+      "@value": "DReps have a responsibility to provide verifiable representation and actively engage with their community of delegators.  \n\nMy goal as a DRep is to provide means for voices to be heard, as well as bridge the gap of communication for those who would otherwise feel their voice goes unheard.  Providing open discussions for education and gathering \"public opinion\" of the delegators will be the primary influence on where my votes will be placed."
+    },
+    "objectives": {
+      "@value": "Over the years, there have been many aspects regarding the management of the chain that have created disagreements and criticism.  With the community governance implemented with Chang, we not only have the capability to voice our wishes, but more importantly the responsibility.  \n\nProper governance cannot take place without many stepping up and actualizing the visions we have as users, and I feel I offer a useful perspective.  I have been looking to realize a creator and user centric music economy, as my experience uniquely qualifies me for, but the implication of such technologies offers the potential of so much more"
+    },
+    "paymentAddress": {
+      "@value": "addr1qx2jlz9fdaetcr2xx0jhsqp3splke8yv32x8jt0txsh800ssq4x3ar05hszqyk2ry8xneylhxueawsrndud6tvmk4cjsy8eqfp"
+    },
+    "qualifications": {
+      "@value": "-Long time Cardano user\n\n-Contributor to standards and development of applications utilizing Cardano\n\n-web development experience\n\n-ethos aligned with the decentralization and verifiability blockchain offers"
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "The Psyence Lab - Music Production and Publishing"
+        },
+        "uri": {
+          "@value": "https://github.com/arpradio/drep/raw/refs/heads/main/SudoScientist.jsonld"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Arp Radio - Cardano Music Token Index and Radio"
+        },
+        "uri": {
+          "@value": "https://arpradio.media"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Twitter/X"
+        },
+        "uri": {
+          "@value": "https://x.com/Sudo_Scientist"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Twitter/X"
+        },
+        "uri": {
+          "@value": "https://x.com/ArpRadioweb3"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Arp Radio - Cardano Music Token Index and Radio"
+        },
+        "uri": {
+          "@value": "https://arpradio.media"
+        }
+      }
+    ]
+  }
+}
