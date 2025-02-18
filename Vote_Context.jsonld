@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "The document that has emerged from this controversial, yet ultimately effective process, may not resemble what any individual participant in this ecosystem wanted or desired. Does this mean it is not a sufficient document?\n\nAt the current stage of our network, it would be nearly impossible for any group to reproduce the coordinated efforts that Intersect achieved. This leaves us with the alternative of a more fragmented process with more competing ideas and initiatives. Given that even those who aligned with Intersect's organized process struggled to reach consensus, how can we expect a less structured, more divided approach to produce a better document than the one before us?\n\nUnderstanding the core issues that constituents and community members had voiced in the early constitutional drafts, my goal as a constitutional delegate was to mold this document to better reflect the wishes and voices of those I represent. Despite the attractive choice of Costa Rica, I knew the more effective path to create change was to take the nerve-racking and far more difficult trek to Kenya, where we could engage with the other half of the world we rarely interact with.\n\nWorking with other delegates, we quickly learned that we had both the ability and obligation to ensure our communities were heard. The document was changing. Making sure nothing within the document could be weaponized was a major focus of mine. The ability to effect change was practiced and demonstrated up until the final days of the constitutional convention. Only because of the changes we were able to enact was I confident enough to declare my vote in support.\n\nMuch like my efforts in the constitutional process, I feel we must be proactive in our approaches. It makes no sense to offer criticisms without solutions. While there may be many changes, even radically different approaches, that I would have liked to see myself, I do not believe any process based upon healthy and distributed consensus would ever arrive at such ideas.\n\nThe consensus we have reached provides us with a framework for those who desire to participate in the decisions that affect Cardano's future. While I may have concerns about how distributed our power structures may be in this decentralized ecosystem, if more people choose to participate, we have the ability to verifiably contribute to all choices within this process.\n\nWe may need to identify shortcomings to arrive at nuanced and appropriate solutions, but let us move forward and continue to ensure our intentions are reflected. Progress isn't automatic; we must keep things moving forward!"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
