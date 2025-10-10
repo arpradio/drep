@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "For many of the same reasons I voted against the previous amendment submissions, nothing substantial has changed within the text.  \n\nAs one of 3 individuals responsible for the inclusion of Article VIII, the intent in writing was for the amendment process to follow submission via a collective.  We have conflated the fact that dReps are the Cardano community, but this is far from the current reality, where no true mechanisms to ensure such representation exists.  \n\nIt was determined that the definitions should not be directly part of the Constitution, and a committee was tasked with defining terms in an external document.  The committee, along with so defined \"Subject Matter Experts\" were unable to create satisfactory definitions, albeit at the failure of Intersect's supplanting of the committee it tasked to do so.  \n\nAny self-defined \"clarifications\" fail to regard the Constitution as an advisory document but instead assumes an authoritative role of the text.  This couldn't be further from the truth, as this is the role of the CC.  A living document relies on the fact that contradictions to the Constitution MUST be allowed in case the text itself would be too restrictive or ill-written in regard to amending it.  It also fails to recognize one of the only defined terms within the text- MUST.  The use of expected already suggests the Info Action clause is not a requirement, but not following it is welcoming scrutiny, which should already be the case with treasury withdrawals.\n\nEven if passed, these changes offer no enforcement over its modifications, and while possibly well-intentioned, misses the mark on what changes are worth modifying the Constitution over.  "
+  },
+  "hashAlgorithm": "blake2b-256"
+}
